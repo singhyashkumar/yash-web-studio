@@ -34,9 +34,9 @@ The portfolio brief form prepares a text-file download. It does not send leads a
 
 ## CV status
 
-`cv.html` links to all three working demos and their logic files. `yash-web-developer-cv.pdf` is a one-page **local preview copy** with three real hyperlinks to the local server. The PDF is not an externally usable application CV until public URLs and verified account details replace the local links.
+`cv.html` links to all three working demos and their logic files. `yash-web-developer-cv.pdf` is a one-page CV with verified public project links. It describes original concept work and an AI-assisted workflow, not invented employment or qualifications.
 
-Yash is a working display label taken from the supplied Chrome shortcut name. Full name, contact details, education, employment history, and marketplace handles have not been inferred or invented.
+The public GitHub account is `singhyashkumar`; the Fiverr account created by the user is `yashweb_studio`. Yash is the display name. Private contact details, education, and employment history have not been inferred or invented.
 
 ## Publish to GitHub Pages without a paid domain
 
@@ -50,7 +50,7 @@ The current package is ready for a public repository. Reuse the user's existing 
 
 GitHub Pages supports public repositories on GitHub Free. A `github.io` address is sufficient for starting. [GitHub Pages quickstart](https://docs.github.com/en/pages/quickstart).
 
-GitHub publication is **not confirmed** in this package. There are no invented deployed URLs.
+Published and verified: [portfolio](https://singhyashkumar.github.io/yash-web-studio/) and [source repository](https://github.com/singhyashkumar/yash-web-studio). The homepage, HTML CV, three demos, images, and logic files returned successful HTTP responses. A paid domain is not required.
 
 ## Review evidence
 
