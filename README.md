@@ -1,6 +1,6 @@
 # Yash Web Studio
 
-A warm sand, terracotta, and espresso portfolio with three original working front-end concepts and a linked, printable CV. Plain HTML, CSS, and JavaScript. No build step or application dependencies.
+A warm sand, terracotta, and espresso portfolio featuring the live Clearcut product, three original working front-end concepts, and a linked, printable CV. The portfolio itself is plain HTML, CSS, and JavaScript with no build step or application dependencies.
 
 ## Run
 
@@ -24,17 +24,18 @@ The single check covers stay pricing, real calendar dates, room capacity, cart t
 
 | Project | Path | Working interactions |
 | --- | --- | --- |
+| Clearcut | [clearcutt.in](https://clearcutt.in/) | Live background-removal product; responsive upload/result UI, browser-local image processing, Firebase sign-in, and a Cloudflare Worker + D1 backend |
 | Casa Sol | `demos/casa-sol/` | Room details, room selection, validated dates and guest counts, stay estimate |
 | Morrow Goods | `demos/morrow/` | Category filtering, price sorting, product details, quantity changes, persistent bag, shipping estimate, order preview |
 | Ledger Lane | `demos/ledger-lane/` | Calculated totals, search, month/status filters, invoice creation, marking paid, browser persistence, CSV generation |
 
-These are fictional brands and illustrative datasets. They are not client commissions. No booking, order, invoice delivery, payment, email delivery, authentication service, or backend is connected. The shop and dashboard keep their demo state in the visitor's browser only.
+Casa Sol, Morrow Goods, and Ledger Lane are fictional brands with illustrative datasets; they are not client commissions. No booking, order, invoice delivery, payment, email delivery, authentication service, or backend is connected to those three demos. Clearcut is a separate live product project with its own public source repository. Its payment infrastructure must not be described as proven until a signed-in live checkout, server verification, entitlement activation, and webhook behavior are verified end to end.
 
 The portfolio brief form prepares a text-file download. It does not send leads anywhere. A verified contact route must be added before client outreach.
 
 ## CV status
 
-`cv.html` links to all three working demos and their logic files. `yash-web-developer-cv.pdf` is a one-page CV with verified public project links. It describes original concept work and an AI-assisted workflow, not invented employment or qualifications.
+`cv.html` links to Clearcut, its source repository, and all three working demos. The PDF CV must be regenerated before publication because the existing file predates the Clearcut entry. The CV describes real project work and an AI-assisted workflow, not invented employment or qualifications.
 
 The public GitHub account is `singhyashkumar`; the Fiverr account created by the user is `yashweb_studio`. Yash is the display name. Private contact details, education, and employment history have not been inferred or invented.
 
@@ -45,12 +46,12 @@ The current package is ready for a public repository. Reuse the user's existing 
 1. Upload the contents of this directory, preserving the `assets/`, `demos/`, and `tests/` folders.
 2. For an existing user-site repository, preserve unrelated content. Otherwise use a dedicated new portfolio repository. Do not overwrite an existing user site.
 3. In repository Settings → Pages, choose **Deploy from a branch**, `main`, and `/(root)`.
-4. Wait for a successful Pages deployment and use the actual URL GitHub reports. Verify the homepage, CV, all three demos, and relative asset links on that URL.
+4. Wait for a successful Pages deployment and use the actual URL GitHub reports. Verify the homepage, CV, Clearcut link, all three demos, and relative asset links on that URL.
 5. Regenerate the PDF using that public base URL; replace the local preview copy. Add only account-verified name and contact details. Upload the updated PDF before submitting it to clients.
 
 GitHub Pages supports public repositories on GitHub Free. A `github.io` address is sufficient for starting. [GitHub Pages quickstart](https://docs.github.com/en/pages/quickstart).
 
-Published and verified: [portfolio](https://singhyashkumar.github.io/yash-web-studio/) and [source repository](https://github.com/singhyashkumar/yash-web-studio). The homepage, HTML CV, three demos, images, and logic files returned successful HTTP responses. A paid domain is not required.
+Previously published and verified: [portfolio](https://singhyashkumar.github.io/yash-web-studio/) and [source repository](https://github.com/singhyashkumar/yash-web-studio). The Clearcut portfolio update requires a new deployment verification before it should be described as live there. A paid portfolio domain is not required.
 
 ## Review evidence
 
